@@ -10,8 +10,8 @@ for ITERATING through SEQUENCES, including selections from:
   -- Looking at two sequences in parallel
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Joshua Bressman.
+"""  # : 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -78,6 +78,9 @@ def run_test_shortest_string():
 
 
 def shortest_string(strings):
+    for k in range(len(strings)-1):
+        stringseq = strings[k]
+        print(len(stringseq[k]))
     """
     What comes in:
       -- a non-empty sequence of strings
